@@ -1,9 +1,8 @@
-.main-banner{
-    background: url("images\tlo");
+.main-banner {
+    background: url("/images/tlo.jpg");
     height: 100vh;
     background-position: center center;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
