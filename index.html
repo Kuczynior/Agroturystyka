@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -15,6 +15,7 @@
     <link href="/css/main-banner.css" rel="stylesheet">
     <link href="/css/container.css" rel="stylesheet">
     <link href="/css/about-us.css" rel="stylesheet">
+    <link href="/css/main-navigation.css" rel="stylesheet">
 </head>
 <body>
     <nav class="main-navigation">
@@ -25,7 +26,7 @@
             Agroturystyka Na Połomiu
             </a>
         </div>
-        <ul class="main-navigation__menu"></ul>
+        <ul class="main-navigation__menu js-main-navigation__menu">
         <li class="main-navigation__menu-item">
             <a href="#" class="main-navigation__link">
                 Strona Główna
@@ -57,27 +58,33 @@
             </a>
         </li>
         <li class="main-navigation__menu-item">
-            <a href="#https://www.facebook.com/AgroturystkaNaPolomiu/" target="_blank" class="main-navigation__link">
+            <a href="https://www.facebook.com/AgroturystkaNaPolomiu/" target="_blank class="main-navigation__link">
                 <img src="/images/icons/social/facebook.svg" alt="Facebook" class="main-navigation__social-icon">
             </a>
         </li>
         <li class="main-navigation__menu-item">
-            <a href="#about-us" class="main-navigation__link">
-                O nas
+            <a href="https://www.instagram.com/agroturystyka_na_polomiu/" target="_blank" class="main-navigation__link">
+                <img src="/images/icons/social/instagram.svg" alt="Instagram" class="main-navigation__social-icon">
             </a>
         </li>
+    </ul>
+    <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+        <img src="images/icons/navigation.svg" alt="Otwórz / zamknij nawigację" class="main-navigation__mobile-button-image">
+    </button>
         </div>
     </nav>
+    <script src="/js/main-navigation.js">
+    </script>
     <section class="main-banner">
         <a href="about-us" class="main-banner__button">
             Poznaj nas!
         </a>
     </section>
 
-        <div class="container">
+        <div class="container" id="about-us">
             <section class="about-us">
                 <div class="about-us__text">
-                <h3 class="about-us__header">
+                    <h3 class="about-us__header">
                     Agroturystyka z duszą!
                 </h3>
                 <p class="aboout-us__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor suscipit lacus eu aliquet. Pellentesque eget sapien ac nulla egestas ornare. Nunc suscipit nisl neque, sit amet suscipit nunc aliquam id. Donec non urna nec nunc varius aliquam. Nullam ac dui nisl. Quisque tristique turpis felis, ut varius mi porttitor in. Aenean faucibus aliquam lacinia. Vivamus facilisis mauris maximus sem volutpat, vel molestie ipsum lobortis.
